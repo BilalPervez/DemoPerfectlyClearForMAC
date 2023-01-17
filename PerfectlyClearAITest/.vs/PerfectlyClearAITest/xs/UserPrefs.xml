@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{9306103A-BE3F-4642-9B8D-26A732A4C8F2}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PerfectlyClearAITest/Program.cs">
+    <Files>
+      <File FileName="PerfectlyClearAITest/Worker.cs" />
+      <File FileName="PerfectlyClearAITest/Program.cs" Line="118" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PerfectlyClearAITest" expanded="True">
+            <Node name="PerfectlyClearAITest" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PerfectlyClearAITest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

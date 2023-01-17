@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectlyClearAITest", "PerfectlyClearAITest\PerfectlyClearAITest.csproj", "{9306103A-BE3F-4642-9B8D-26A732A4C8F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9306103A-BE3F-4642-9B8D-26A732A4C8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9306103A-BE3F-4642-9B8D-26A732A4C8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9306103A-BE3F-4642-9B8D-26A732A4C8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9306103A-BE3F-4642-9B8D-26A732A4C8F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69C62E7F-D04A-47AD-8820-8F61FDD22C51}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+	EndGlobalSection
+EndGlobal
