@@ -48,11 +48,15 @@ namespace CSharp_AISample
 				Console.WriteLine("Path of input image is missing.");
 				return;
 			}
-			//! [PFC_CSHARP_DETAILED_AI Instantiate]
-			// Instantiate class object
-			// if you have a license key, then call PFC_SetProtectionPath with the path
-			// to your license files
-			PerfectlyClearAdapter.PerfectlyClear Pfc = new PerfectlyClearAdapter.PerfectlyClear("C:\\Protection\\sdk");
+            //! [PFC_CSHARP_DETAILED_AI Instantiate]
+            // Instantiate class object
+            // if you have a license key, then call PFC_SetProtectionPath with the path
+            // to your license files
+
+            
+            string execPath = AppDomain.CurrentDomain.BaseDirectory;
+            string pathLicense = $"{execPath}sdk_license";
+			PerfectlyClearAdapter.PerfectlyClear Pfc = new PerfectlyClearAdapter.PerfectlyClear(pathLicense);
 			if (Pfc == null)
 			{
 				Console.WriteLine("Unable to create Pfc object.");
@@ -74,7 +78,7 @@ namespace CSharp_AISample
 			// IMPORTANT: initialization of AI engine takes time.
 
 			// Load AI engine (assuming all dlls and models are in exe folder):
-			string execPath = AppDomain.CurrentDomain.BaseDirectory;
+			//string execPath = AppDomain.CurrentDomain.BaseDirectory;
 			int aistatus = Pfc.LoadAiEngine(PFCAIFEATURE.AI_SCENE_DETECTION | PFCAIFEATURE.AI_CORRECTIONS, execPath);
 			if (((PFCAIFEATURE)aistatus & PFCAIFEATURE.AI_SCENE_DETECTION) != PFCAIFEATURE.AI_SCENE_DETECTION) {
 				Console.WriteLine("Cannot load AI SD engine. Make sure the pnn file and PFCAI libraries are in the executable directory or change binPath.");
